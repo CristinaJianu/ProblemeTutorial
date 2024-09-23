@@ -9,8 +9,15 @@ public class Persoana {
     Acest lucru se realizeaza cu super
     Mostenirea se face la nivel de clasa cu cuv "extends"
     in Java o clasa poate mosteni doar o singura clasa
-    incapsularea = conceptul prin care excludem anumite prop/metode
+    Incapsularea = conceptul prin care excludem anumite prop/metode
     conceptul se poate aplica la orice nivel de clase
+    !!!Polimorfism=conceptul prin care o metoda poate avea implementari diferite
+    Este de 2 feluri : static (overload) si dinamic (override)
+    Dinamic= intr o ierarhie de clase obtinute prin mostenire o metoda poate avea implementari diferite
+    Polimorfismul Dinamic se regaseste doar cand este aplicat conceptul de mostenire
+    Static=actiunea prin care putem avea metode cu acelasi nume insa diferentiara fiind facuta prin
+            numar/tip parametric
+
      */
 
     private String nume;
@@ -33,6 +40,12 @@ public class Persoana {
         System.out.println("Varsta persoanei este de "+varsta+" ani");
         System.out.println("Sexul persoanei este "+sex);
         System.out.println("Adresa unde locuieste persoana este "+adresa);
+    }
+
+    //polimorfism dinamic
+
+    public void mananca() {
+        System.out.println("Persoana mananca cand ii este foame ");
     }
 
     //get da informatia, set iti seteaza informatia

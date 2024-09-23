@@ -16,6 +16,10 @@ public class Sportiv extends Persoana{
         this.experienta = experienta;
     }
 
+    public void mananca(){
+        System.out.println("Sportivul mananca dupa antrenament ");
+    }
+
     public void infoSportiv()
     {
         infoPersoana();
