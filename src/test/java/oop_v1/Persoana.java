@@ -1,4 +1,4 @@
-package oop_mostenire;
+package oop_v1;
 
 public class Persoana {
 
@@ -17,6 +17,7 @@ public class Persoana {
     Polimorfismul Dinamic se regaseste doar cand este aplicat conceptul de mostenire
     Static=actiunea prin care putem avea metode cu acelasi nume insa diferentiara fiind facuta prin
             numar/tip parametric
+
 
      */
 
